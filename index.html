@@ -59,6 +59,36 @@
 								<use xlink:href="./images/sprite.svg#icon-close"></use>
 							</svg>
 						</button>
+						<p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+						<form action="" class="modal-form">
+							<div class="form-element">
+								<label for="name" class="form-label">Ім'я</label>
+								<input type="text" id="name" class="form-input" />
+								<svg class="modal-icon" viewBox="0 0 32 32" width="18">
+									<use xlink:href="./images/sprite.svg#icon-person-black"></use>
+								</svg>
+							</div>
+							<div class="form-element"
+								><label for="telephone" class="form-label">Телефон</label>
+								<input type="telephone" name="telephone" id="telephone" class="form-input"
+							/></div>
+
+							<div class="form-element">
+								<label for="email" class="form-label">Пошта</label>
+								<input type="email" name="email" id="email" class="form-input"
+							/></div>
+							<div class="form-element">
+								<label for="coment" class="form-label">Коментар</label>
+								<textarea name="coment" id="coment" cols="30" rows="10"></textarea>
+							</div>
+							<div class="form-element-checkbox">
+								<input type="checkbox" id="check" />
+								<label for="check">Погоджуюся з розсилкою та приймаю</label>
+								<a href="">Умови договору</a>
+							</div>
+
+							<button type="submit" class="button">Відправити</button>
+						</form>
 					</div>
 				</div>
 			</section>
@@ -324,6 +354,17 @@
 									<use xlink:href="./images/sprite.svg#icon-linkedin"></use></svg></a
 						></li>
 					</ul>
+				</div>
+
+				<div class="footer-user">
+					<p class="text">Підпишіться на розсилку</p>
+					<div class="user-field">
+						<input type="text" name="autor" placeholder="E-mail" />
+						<button class="button-user" type="submit">
+							Підписатися
+							<svg class="user-icon" viewBox="0 0 32 32" width="24">
+								<use xlink:href="./images/sprite.svg#icon-icon-send"></use></svg></button
+					></div>
 				</div>
 			</div>
 		</footer>
