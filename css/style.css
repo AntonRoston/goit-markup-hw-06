@@ -266,6 +266,7 @@ body {
 .form-element label {
 	display: flex;
 	margin-bottom: 4px;
+	color: var(--paragraph-text-color);
 }
 
 .form-element input {
@@ -311,6 +312,9 @@ body {
 	margin-bottom: 30px;
 	display: flex;
 	/* align-items: center; */
+	color: var(--paragraph-text-color);
+	justify-content: center;
+	align-items: center;
 }
 
 .checkbox-label {
@@ -674,7 +678,6 @@ body {
 .footer-box {
 	display: flex;
 	align-items: baseline;
-	justify-content: space-between;
 }
 
 .footer-social {
@@ -710,7 +713,7 @@ body {
 }
 
 .footer-user {
-	margin-left: 93px;
+	margin-left: auto;
 }
 
 .footer-user .button {
